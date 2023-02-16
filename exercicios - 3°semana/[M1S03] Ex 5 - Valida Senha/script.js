@@ -1,5 +1,5 @@
 function validaSenha() {
-    let mensagem;''
+    let mensagem;
     let botao = addEventListener('submit',() => {
         event.preventDefault();
         let senhaInput = document.querySelector('#senha').value
