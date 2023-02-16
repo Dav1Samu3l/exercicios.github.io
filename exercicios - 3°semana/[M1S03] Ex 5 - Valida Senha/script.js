@@ -1,5 +1,5 @@
 function validaSenha() {
-    let mensagem;
+    let mensagem;''
     let botao = addEventListener('submit',() => {
         event.preventDefault();
         let senhaInput = document.querySelector('#senha').value
@@ -7,7 +7,7 @@ function validaSenha() {
         if (senhaInput == senha) {
             mensagem = 'liberado'
         } else {
-            mensagem = 'acesso nao liberado'
+            mensagem = 'aceso nao liberado'
         }
         document.querySelector('#mensagem').innerHTML = mensagem
     })
