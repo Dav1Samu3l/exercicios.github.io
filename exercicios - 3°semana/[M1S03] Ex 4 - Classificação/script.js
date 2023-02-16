@@ -3,12 +3,12 @@ function classificaPedidos(valorPedidio) {
 
     if (valorPedidio <= 10.000) {
         nivel = 'bronze'
-    } else if (valorPedidio > 10.000 && valorPedidio < 50.000) {
+    } else if (valorPedidio > 10.000 && valorPedidio < 99.999) {   
         nivel = 'prata'
     } else if (valorPedidio >= 100.000 && valorPedidio < 500.000) {
         nivel = 'ouro'
     } else if (valorPedidio >= 500.000) {
-        nivel = "latinum"
+        nivel = "platinum"
     } return nivel
 
 }
