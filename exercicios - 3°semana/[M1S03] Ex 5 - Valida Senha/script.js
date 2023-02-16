@@ -7,7 +7,7 @@ function validaSenha() {
         if (senhaInput == senha) {
             mensagem = 'liberado'
         } else {
-            mensagem = 'aceso nao liberado'
+            mensagem = 'acesso nao liberado'
         }
         document.querySelector('#mensagem').innerHTML = mensagem
     })
